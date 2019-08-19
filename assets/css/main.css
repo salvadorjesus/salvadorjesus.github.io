@@ -2592,9 +2592,17 @@
 			width: 100%;
 		}
 
-			.image.main img {
-				width: 100%;
-			}
+		.image.custom
+		{
+			display: block;
+			margin: 0 0 2em 0;
+			width: 70%;
+		}
+		.image.custom img {
+			width: 100%;
+			min-width: 8cm;
+			max-width: 18cm;
+		}
 
 	a.image {
 		overflow: hidden;
